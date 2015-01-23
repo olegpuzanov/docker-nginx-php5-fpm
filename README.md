@@ -29,4 +29,8 @@ This is the base image with Ubuntu, Nginx and PHP FPM. Docker repository availab
 ### Run
 	docker run -t -i -p 8080:80 -d "olegpuzanov/nginx-php-fpm" /bin/bash
 
-Then you need to open 0.0.0.0:8080
+### Launch
+
+	http://localhost:8080/
+
+Note, if you have used the boot2docker virtual machine, you'll need to get the IP of the virtual host instead of using localhost. You can do this by running the following command `boot2docker ip`.
