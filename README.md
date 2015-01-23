@@ -1,6 +1,6 @@
 docker-nginx-php5-fpm
 ==================
-This is the base image with Ubuntu, Nginx and PHP.
+This is the base image with Ubuntu, Nginx and PHP FPM.
 
 Installed Ubuntu version:
 - 14.04 LTS
