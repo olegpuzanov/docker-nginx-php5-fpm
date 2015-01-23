@@ -24,9 +24,11 @@ This is the base image with Ubuntu, Nginx and PHP FPM. Docker repository availab
 - curl
 
 **Build**
+
 	docker build -t "olegpuzanov/nginx-php-fpm" .
 
 **Run**
+
 	docker run -t -i -p 8080:80 -d "olegpuzanov/nginx-php-fpm" /bin/bash
 
 **Launch**
