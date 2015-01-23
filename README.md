@@ -1,7 +1,7 @@
 docker-nginx-php5-fpm
 ==================
 
-This is the base image with Ubuntu, Nginx and PHP FPM. Docker repository available is here [olegpuzanov/docker-nginx-php5-fpm](https://registry.hub.docker.com/u/olegpuzanov/docker-nginx-php5
+This is the base image with Ubuntu, Nginx and PHP FPM. Docker repository available is here [olegpuzanov/docker-nginx-php5-fpm](https://registry.hub.docker.com/u/olegpuzanov/docker-nginx-php5).
 
 **Installed Ubuntu version:**
 - 14.04 LTS
@@ -23,13 +23,13 @@ This is the base image with Ubuntu, Nginx and PHP FPM. Docker repository availab
 - gd
 - curl
 
-### Build
+**Build**
 	docker build -t "olegpuzanov/nginx-php-fpm" .
 
-### Run
+**Run**
 	docker run -t -i -p 8080:80 -d "olegpuzanov/nginx-php-fpm" /bin/bash
 
-### Launch
+**Launch**
 
 	http://localhost:8080/
 
